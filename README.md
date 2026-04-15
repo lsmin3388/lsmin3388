@@ -29,12 +29,16 @@
 - **해피에이징** · DevOps Technical Lead · 2024.07 – 2025.03
   Spring Boot + PostgreSQL + OpenAI 로 노인 낙상 방지 어시스턴트 서버 구축, Kotlin 안드로이드 앱까지
 
-### 🎓 학교에서
+### 🎓 학교에서 — KNU CSE 학생회 플랫폼
 
-- **경북대 컴퓨터학부 학생회 통합 시스템** · Spring Boot · MySQL · Docker
-  재학생 2,000명 이상 개인정보 DB·SSO 인증서버·학생증 QR 인증 구축 및 물리서버 운영
-- **컴퓨터학부 사물함 통합 관리 시스템** · Ubuntu 22.04 물리서버 · Nginx · SSL · Docker
-- 부학생회장(2026) / 과대표(2024 – 2025) / 시스템도서위원회(2023 – )
+학부 학생회 웹 서비스를 **MSA로 전면 설계·구축**. 8개 레포로 분리된 인증 / 학생회비 / 사물함 도메인과 공용 Spring Boot Starter·Core Infra 레포로 구성.
+
+- **SSO 인증 서버** · Keycloak + OAuth2 Authorization Code, 자체 JWT 발급 / 역할 관리 (`ADMIN` / `EXECUTIVE` / `FINANCE` / `STUDENT` 등)
+- **sso-spring-boot-starter** · 사내 공용 라이브러리로 배포, 모든 하위 서비스가 JWT 검증·Role 체크를 starter 의존만으로 처리
+- **Ledger** (학생회비 납부 관리) / **Locker** (사물함 배정 조회·시각화) · 서비스별 독립 DB·독립 배포, 2,000명 이상 재학생 데이터 운영
+- **Core Infra** · 학부 물리서버에 Ubuntu 22.04 · Docker Compose · Nginx Reverse Proxy · SSL 로 전 서비스 통합 운영, GitHub Actions 재사용 워크플로우로 배포 자동화
+
+부학생회장(2026) · 과대표(2024 – 2025) · 시스템도서위원회(2023 – )
 
 ### 🦁 커뮤니티 · 교육
 
