@@ -4,8 +4,7 @@
 
 **최고의 CTO를 꿈꾸며, 함께 하고 싶은 사람이 되는 것**
 
-경북대학교 컴퓨터학부 23 · 과학기술전문사관(ROND) 11기
-2026 경북대 컴퓨터학부 부학생회장
+과학기술전문사관(ROND) 11기 · 2026 경북대 컴퓨터학부 부학생회장
 
 [Portfolio](https://lsmin3388.github.io) · [Blog](https://velog.io/@sangminn) · [LinkedIn](https://www.linkedin.com/in/sangminn0) · sjsb4838@gmail.com
 
