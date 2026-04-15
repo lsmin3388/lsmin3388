@@ -16,7 +16,7 @@
 
 - **DataHouse Vietnam** · Backend Intern · 2026.01 – 02, 다낭
   Node.js / TypeScript 로 Slack 챗봇 **TechTalk Hub** 개발, DB·UI 최적화로 응답시간 **38%** 단축
-- **론드코퍼레이션** · Full-Stack Developer (정규직) · 2025.05 – 12, 강남
+- **론드코퍼레이션** · Full-Stack Developer (정규직) · 2025.05 – 12
   청년창업사관학교 선정 스타트업에서 웹 풀스택 제품 개발
 - **해피에이징** · DevOps Technical Lead (산학) · 2024.07 – 2025.03
   Spring Boot + PostgreSQL + OpenAI 로 노인 낙상 방지 어시스턴트 서버 구축, Kotlin 안드로이드 앱까지
